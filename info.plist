@@ -72,7 +72,7 @@
 	<key>createdby</key>
 	<string>Ryan Chang</string>
 	<key>description</key>
-	<string></string>
+	<string>quick swtich env by kubeconfig</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
@@ -280,7 +280,7 @@ echo -n $query</string>
 		</dict>
 	</array>
 	<key>readme</key>
-	<string></string>
+	<string>quick swtich env by kubeconfig</string>
 	<key>uidata</key>
 	<dict>
 		<key>115BF873-930E-4514-A37A-F5A41F0F2231</key>
@@ -336,8 +336,8 @@ echo -n $query</string>
 	<key>variablesdontexport</key>
 	<array/>
 	<key>version</key>
-	<string></string>
+	<string>0.0.1</string>
 	<key>webaddress</key>
-	<string></string>
+	<string>https://github.com/ryanrs-chang/alfred-k8s</string>
 </dict>
 </plist>
