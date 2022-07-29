@@ -1,0 +1,41 @@
+{
+  "name": "alfred-k8s",
+  "version": "0.0.1",
+  "description": "My k8s Alfred",
+  "license": "MIT",
+  "repository": "Ryan Chang/alfred-k8s",
+  "author": {
+    "name": "Ryan2 Chang",
+    "email": "ppppp196@gmail.com",
+    "url": "https://github.com/ryanrs-chang"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=14"
+  },
+  "scripts": {
+    "test": "xo && ava",
+    "postinstall": "alfy-init",
+    "preuninstall": "alfy-cleanup"
+  },
+  "files": [
+    "index.js",
+    "src/*.js",
+    "icon.png",
+    "info.plist"
+  ],
+  "keywords": [
+    "alfred",
+    "workflow",
+    "alfy",
+    "notion"
+  ],
+  "dependencies": {
+    "alfy": "~1.0.0",
+    "envalid": "^7.3.1"
+  },
+  "devDependencies": {
+    "ava": "^4.1.0",
+    "xo": "^0.48.0"
+  }
+}
